@@ -7,13 +7,6 @@ more_words = ["shelf", "phone", "keys", "head", "rags", "towel", "home", "house"
 
 # OUTPUT words that have EXACTLY 4 CHARACTERS
 
-# INPUT the array and OUTPUT each string seperately
-# def four_characters(arr)
-#     arr.each do |word|
-#         puts word
-#     end
-# end
-
 # The words that are OUTPUT seperately are then checked for LENGTH but didn't OUTPUT what I wanted it to, so I moved it to the bottom for reference
 
 #Shortened the code and REMOVED the line that is supposed to pull everything out of the array seperately 
@@ -22,15 +15,21 @@ def four_characters(arr)
         puts arr.select {|word| word.length == 4}
 end
 
-#This worked 
-
-
-# four_characters(words)
+four_characters(words)
 four_characters(more_words)
 
 
+#Reference
 
 
+# INPUT the array and OUTPUT each string seperately
+# def four_characters(arr)
+#     arr.each do |word|
+#         puts word
+#     end
+# end
+
+# Stuff that didn't do exactly what I wanted it to do
 
 # This OUTPUTS a boolean value of whether or not each string has 4 characters
 # def four_characters(arr)
